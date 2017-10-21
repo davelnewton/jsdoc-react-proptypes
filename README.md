@@ -117,7 +117,7 @@ You will know what I'm talking about, because you are using jsdoc. If you are no
 
 ### Override the inferred type
 
-You might have some `@typedef`s or `@callback`s that obviously don't have corresponding React proptypes. When this happens you can just use jsdoc's regular type syntax with the curly braces to manually set the docuemnted type. In the case below, we have a `@callback OnClick` already doing its thing somewhere.
+You might have some `@typedef`s or `@callback`s that obviously don't have corresponding React proptypes. When this happens you can just use jsdoc's regular type syntax with the curly braces to manually set the documented type. In the case below, we have a `@callback OnClick` already doing its thing somewhere.
 
 ```
 Button.propTypes = {
