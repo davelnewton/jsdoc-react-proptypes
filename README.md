@@ -1,4 +1,4 @@
-# jsdoc-react-proptypes
+# jsdoc-react-proptypes is no longer maintained!
 
 Ok. Readme file. Yeah, so this thing lets [jsdoc](https://github.com/jsdoc3/jsdoc) parse [React propTypes](https://facebook.github.io/react/docs/typechecking-with-proptypes.html) and [defaultProps](https://facebook.github.io/react/docs/typechecking-with-proptypes.html) to help auto document your props and related shenanigans. Only works for ES6 syntax right now. PRs are welcome if you need ES5 support.
 
