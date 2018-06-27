@@ -1,8 +1,12 @@
 # jsdoc-react-proptypes is no longer maintained!
 
+Forked with some updates.
+
+---
+
 Ok. Readme file. Yeah, so this thing lets [jsdoc](https://github.com/jsdoc3/jsdoc) parse [React propTypes](https://facebook.github.io/react/docs/typechecking-with-proptypes.html) and [defaultProps](https://facebook.github.io/react/docs/typechecking-with-proptypes.html) to help auto document your props and related shenanigans. Only works for ES6 syntax right now. PRs are welcome if you need ES5 support.
 
-So right off the bat I just want to say that this thing is a haphazard lean-to of breadsticks and ticky tacky. Like, it works for now because the tests say it works for now, so it does work for now but only in the same way that floating an egg in water is an indicator of whether it's gone off or not. 
+So right off the bat I just want to say that this thing is a haphazard lean-to of breadsticks and ticky tacky. Like, it works for now because the tests say it works for now, so it does work for now but only in the same way that floating an egg in water is an indicator of whether it's gone off or not.
 
 Anyway fuck it I've just released `v1.0.0` in preparation for several weeks of bug fixing, followed by a complete rewrite for `v2.0.0` that compensates for too many edge / corner cases and bleeds the scope out way too far in the process, followed by a `v3.0.0` that takes a step back and splits the codebase in seventeen directions with a plugin based architecture that works well only for those who are already familiar with earlier rewrites and the rationale behind them, partly caused by the fact that our docs will be a classic case of "can't see the forest for the trees" and completely miss any useful higher level overview (if for some reason you have to deviate from the example set up in any way, which you almost certainly will, as not being able to facilitate everyone's unique project configurations was the reason for introducing the plugin based architecture in the first place), partly caused by such a massive overhaul of the public facing API that the userbase in general is completely confused about where everything has shifted, and the tutorials will only be updated once people complain about them being a major version out of date, and partly because who really wants to invest so much time into any of this nonsense caused by "move fast and break things", and "what is semver", before a gradual evaporation as everyone starts using anything else but this, and the idea that anyone ever used jsdoc with React becomes as laughable and apparently misguided as XHTML2.0, or at least I hope that's what will happen, minus having to release any major versions above version `v1.x.x`, and minus any of the related issues that may occur with those respective hypothetical new major releases.
 
@@ -156,4 +160,4 @@ If you want to dev this then I welcome it. Also I'm truly sorry. You'll know wha
 
 ## License
 
-Do whatever you want with it. 
+Do whatever you want with it.
